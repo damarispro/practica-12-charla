@@ -71,6 +71,9 @@ dependencies {
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
     implementation(libs.androidx.hilt.lifecycle.viewmodel.compose)
-
+    implementation(libs.zxing.core)
+    implementation(libs.play.services.code.scanner)
+    implementation(libs.mlkit.barcode.scanning)
+    implementation(libs.kotlinx.coroutines.play.services)
     debugImplementation(libs.androidx.ui.tooling)
 }
